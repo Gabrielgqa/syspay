@@ -6,8 +6,10 @@
   "author": "GabrielGQA",
   "license": "MIT",
   "scripts": {
+    "start": "node src/server.js",
     "lint": "eslint src/** test/** --fix",
-    "test": "jest"
+    "test": "jest",
+    "secure-mode": "jest --watch --verbose=true"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
